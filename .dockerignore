@@ -1,0 +1,16 @@
+# .dockerignore
+
+# Ignore the huge dataset folder
+twitter-entity-sentiment-analysis/
+
+# Ignore Python virtual environment
+.venv/
+
+# Ignore VS Code settings and Python cache
+.vscode/
+__pycache__/
+*.pyc
+
+# Ignore Git files
+.git/
+.gitignore

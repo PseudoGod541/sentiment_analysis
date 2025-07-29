@@ -1,0 +1,18 @@
+# requirements.txt
+
+# --- Core ML & NLP Libraries ---
+# IMPORTANT: Use the exact versions you trained your model with!
+tensorflow==2.17.0
+scikit-learn==1.3.2
+pandas
+numpy
+gensim
+
+# --- FastAPI Backend ---
+fastapi
+uvicorn
+python-multipart
+
+# --- Streamlit Frontend ---
+streamlit
+requests
